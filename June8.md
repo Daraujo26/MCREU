@@ -15,7 +15,7 @@ __What's the softmax function?__
   
   __Also seen here:__
   
-   <img src="image2.png" width="450" height="400">
+   <img src="image2.png" width="500" height="400">
   
 __What does the code do in lines 83-84?__
 
@@ -27,6 +27,7 @@ __What does the code do in lines 83-84?__
   
 __What is LayerNorm?__
 
-   LayerNorm is a type of Normalization, used as a 'technique' to stabalize or speed up the training of a neural network.
+   LayerNorm is a type of Normalization, used as a 'technique' to stabalize or speed up the training of a neural network. First, LayerNorm normalizes the        values on all the hidden units in a layer for each feature. Then, computes the mean and standard deviation for normalization on the features and not 
+   on an entire batch of data like batch normalization.
   
   
