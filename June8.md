@@ -15,12 +15,12 @@ __What's the softmax function?__
   
   __Also seen here:__
   
-  <img src="image2.png" width="350" height="300">
+   <img src="image2.png" width="450" height="400">
   
 __What does the code do in lines 83-84?__
 
-  83  Reduce('b n c -> b c', 'mean'),
-  84  nn.Linear(dim, num_classes)
+    83  Reduce('b n c -> b c', 'mean'),
+    84  nn.Linear(dim, num_classes)
         
   Lines 83-84 are an application of what was mentioned before, line 83 produces logits and line 84 applies the softmax function and turns the logits
   into probabilites. Together these are called __the classifier head__.
