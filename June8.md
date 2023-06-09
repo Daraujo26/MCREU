@@ -9,7 +9,7 @@ __What are logits?__
 __What's the softmax function?__ 
 
   __The Softmax Function:__ 
-        
+        ![image](image1.png)
         
   Using the same data from before you can apply the softmax function to a set of numbers and change them into probabilities that sum to 1.
   Also seen here -> ![image](image2.png)
