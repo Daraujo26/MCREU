@@ -8,5 +8,6 @@ __What are logits?__
   
 __What's the softmax function?__ 
 
-  __The Softmax Function:__ ![image](image1.svg)
+  __The Softmax Function:__ 
+        ![image](image1.svg)
 
