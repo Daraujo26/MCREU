@@ -25,4 +25,8 @@ __What does the code do in lines 83-84?__
   Lines 83-84 are an application of what was mentioned before, line 83 produces logits and line 84 applies the softmax function and turns the logits
   into probabilites. Together these are called __the classifier head__.
   
+__What is LayerNorm?__
+
+   LayerNorm is a type of Normalization, used as a 'technique' to stabalize or speed up the training of a neural network.
+  
   
