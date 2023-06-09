@@ -3,7 +3,7 @@
 __What are logits?__
 
   Logits are 'unnormalized' output values made by the __last output layer before applying an activation function__. Say your running a network for
-  the MNIST dataset then your network could produce and output like this __[2.3, 0.7, -0.8, 1.5, 3.3, -1.4, 0.3, 2.1, 0.9, -1.9]__. Each number c-
+  the MNIST dataset then your network could produce and output like this __[2.3, 0.7, -0.8, 1.5, 3.3, -1.4, 0.3, 2.1, 0.9, -1.9]__. Each number c
   orrisponding to one of the 0-9 outputs. After this is done you might add an activation function to these. Which leads to the next question.
   
 __What's the softmax function?__ 
