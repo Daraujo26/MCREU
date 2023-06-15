@@ -28,3 +28,5 @@ __Example for four images:__
     11: plt.imshow(x)
     out: <matplotlib.image.AxesImage at 0x7fa47d909f10>
     12: plt.show()
+
+<img src="image3.png" width="450" height="400">
