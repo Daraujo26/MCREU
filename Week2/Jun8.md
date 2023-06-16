@@ -9,13 +9,13 @@ __What are logits?__
 __What's the softmax function?__ 
 
   __The Softmax Function:__ 
-        <img src="image1.png" width="150" height="100">
+        <img src="Images/image1.png" width="150" height="100">
         
   Using the same data from before you can apply the softmax function to a set of numbers and change them into probabilities that sum to 1.
   
   __Also seen here:__
   
-   <img src="image2.png" width="500" height="400">
+   <img src="Images/image2.png" width="500" height="400">
   
 __What does the code do in lines 83-84?__
 
