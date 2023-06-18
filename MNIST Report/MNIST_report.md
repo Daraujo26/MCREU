@@ -55,12 +55,12 @@ After running the code above the starting accuarcy was around 10%, then after an
 
 Since this code uses a lot better network architecture it was able to get an accuarcy of 90% in just 10 epochs.
 
-<image>
+<img src="Images/Image1.png" width="450" height="400">
 
 After seeing this, I decided to try adding a ReLU function and also lower the learning rate from 1e-3 to 1e-2. By doing this, I was able to get the accuracy to 95% in 10 epochs.
 
-<image>
+<img src="Images/Image2.png" width="450" height="400">
 
 I tested several other changes, most of which either scored lower or roughly equal to the previous score. However in one case I changed the learning rate from a 1e-2 to a 1e-1 which interestingly got a score of 98% on epoch 6 before crashing all the way down to a 10% accuracy on the last epoch. After seeing this I decided to settle for a 95% accuracy.
 
-<image>
+<img src="Images/Image3.png" width="750" height="400">
